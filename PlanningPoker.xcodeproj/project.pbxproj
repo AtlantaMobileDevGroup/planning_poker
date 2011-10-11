@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A0AA2F1444CE05001E7B9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA2E1444CE05001E7B9B /* UIKit.framework */; };
+		E1A0AA311444CE05001E7B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA301444CE05001E7B9B /* Foundation.framework */; };
+		E1A0AA331444CE05001E7B9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA321444CE05001E7B9B /* CoreGraphics.framework */; };
+		E1A0AA391444CE05001E7B9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A0AA371444CE05001E7B9B /* InfoPlist.strings */; };
+		E1A0AA3B1444CE05001E7B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0AA3A1444CE05001E7B9B /* main.m */; };
+		E1A0AA3F1444CE05001E7B9B /* PlanningPokerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0AA3E1444CE05001E7B9B /* PlanningPokerAppDelegate.m */; };
+		E1A0AA421444CE05001E7B9B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A0AA401444CE05001E7B9B /* MainWindow.xib */; };
+		E1A0AA4A1444CE05001E7B9B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA491444CE05001E7B9B /* SenTestingKit.framework */; };
+		E1A0AA4B1444CE05001E7B9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA2E1444CE05001E7B9B /* UIKit.framework */; };
+		E1A0AA4C1444CE05001E7B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA301444CE05001E7B9B /* Foundation.framework */; };
+		E1A0AA4D1444CE05001E7B9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0AA321444CE05001E7B9B /* CoreGraphics.framework */; };
+		E1A0AA551444CE05001E7B9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A0AA531444CE05001E7B9B /* InfoPlist.strings */; };
+		E1A0AA571444CE06001E7B9B /* PlanningPokerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E1A0AA561444CE06001E7B9B /* PlanningPokerTests.h */; };
+		E1A0AA591444CE06001E7B9B /* PlanningPokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0AA581444CE06001E7B9B /* PlanningPokerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1A0AA4E1444CE05001E7B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A0AA211444CE05001E7B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A0AA291444CE05001E7B9B;
+			remoteInfo = PlanningPoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1A0AA2A1444CE05001E7B9B /* PlanningPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A0AA2E1444CE05001E7B9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1A0AA301444CE05001E7B9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1A0AA321444CE05001E7B9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1A0AA361444CE05001E7B9B /* PlanningPoker-Info.plist */ = {isa = PBXFileReference; path = "PlanningPoker-Info.plist"; sourceTree = "<group>"; };
+		E1A0AA381444CE05001E7B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1A0AA3A1444CE05001E7B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1A0AA3C1444CE05001E7B9B /* PlanningPoker-Prefix.pch */ = {isa = PBXFileReference; path = "PlanningPoker-Prefix.pch"; sourceTree = "<group>"; };
+		E1A0AA3D1444CE05001E7B9B /* PlanningPokerAppDelegate.h */ = {isa = PBXFileReference; path = PlanningPokerAppDelegate.h; sourceTree = "<group>"; };
+		E1A0AA3E1444CE05001E7B9B /* PlanningPokerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanningPokerAppDelegate.m; sourceTree = "<group>"; };
+		E1A0AA411444CE05001E7B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E1A0AA481444CE05001E7B9B /* PlanningPokerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanningPokerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A0AA491444CE05001E7B9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1A0AA521444CE05001E7B9B /* PlanningPokerTests-Info.plist */ = {isa = PBXFileReference; path = "PlanningPokerTests-Info.plist"; sourceTree = "<group>"; };
+		E1A0AA541444CE05001E7B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1A0AA561444CE06001E7B9B /* PlanningPokerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanningPokerTests.h; sourceTree = "<group>"; };
+		E1A0AA581444CE06001E7B9B /* PlanningPokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanningPokerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A0AA271444CE05001E7B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0AA2F1444CE05001E7B9B /* UIKit.framework in Frameworks */,
+				E1A0AA311444CE05001E7B9B /* Foundation.framework in Frameworks */,
+				E1A0AA331444CE05001E7B9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A0AA441444CE05001E7B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0AA4A1444CE05001E7B9B /* SenTestingKit.framework in Frameworks */,
+				E1A0AA4B1444CE05001E7B9B /* UIKit.framework in Frameworks */,
+				E1A0AA4C1444CE05001E7B9B /* Foundation.framework in Frameworks */,
+				E1A0AA4D1444CE05001E7B9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A0AA1F1444CE05001E7B9B = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA341444CE05001E7B9B /* PlanningPoker */,
+				E1A0AA501444CE05001E7B9B /* PlanningPokerTests */,
+				E1A0AA2D1444CE05001E7B9B /* Frameworks */,
+				E1A0AA2B1444CE05001E7B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A0AA2B1444CE05001E7B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA2A1444CE05001E7B9B /* PlanningPoker.app */,
+				E1A0AA481444CE05001E7B9B /* PlanningPokerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A0AA2D1444CE05001E7B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA2E1444CE05001E7B9B /* UIKit.framework */,
+				E1A0AA301444CE05001E7B9B /* Foundation.framework */,
+				E1A0AA321444CE05001E7B9B /* CoreGraphics.framework */,
+				E1A0AA491444CE05001E7B9B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A0AA341444CE05001E7B9B /* PlanningPoker */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA3D1444CE05001E7B9B /* PlanningPokerAppDelegate.h */,
+				E1A0AA3E1444CE05001E7B9B /* PlanningPokerAppDelegate.m */,
+				E1A0AA401444CE05001E7B9B /* MainWindow.xib */,
+				E1A0AA351444CE05001E7B9B /* Supporting Files */,
+			);
+			path = PlanningPoker;
+			sourceTree = "<group>";
+		};
+		E1A0AA351444CE05001E7B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA361444CE05001E7B9B /* PlanningPoker-Info.plist */,
+				E1A0AA371444CE05001E7B9B /* InfoPlist.strings */,
+				E1A0AA3A1444CE05001E7B9B /* main.m */,
+				E1A0AA3C1444CE05001E7B9B /* PlanningPoker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A0AA501444CE05001E7B9B /* PlanningPokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA561444CE06001E7B9B /* PlanningPokerTests.h */,
+				E1A0AA581444CE06001E7B9B /* PlanningPokerTests.m */,
+				E1A0AA511444CE05001E7B9B /* Supporting Files */,
+			);
+			path = PlanningPokerTests;
+			sourceTree = "<group>";
+		};
+		E1A0AA511444CE05001E7B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0AA521444CE05001E7B9B /* PlanningPokerTests-Info.plist */,
+				E1A0AA531444CE05001E7B9B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A0AA291444CE05001E7B9B /* PlanningPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A0AA5C1444CE06001E7B9B /* Build configuration list for PBXNativeTarget "PlanningPoker" */;
+			buildPhases = (
+				E1A0AA261444CE05001E7B9B /* Sources */,
+				E1A0AA271444CE05001E7B9B /* Frameworks */,
+				E1A0AA281444CE05001E7B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanningPoker;
+			productName = PlanningPoker;
+			productReference = E1A0AA2A1444CE05001E7B9B /* PlanningPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A0AA471444CE05001E7B9B /* PlanningPokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A0AA5F1444CE06001E7B9B /* Build configuration list for PBXNativeTarget "PlanningPokerTests" */;
+			buildPhases = (
+				E1A0AA431444CE05001E7B9B /* Sources */,
+				E1A0AA441444CE05001E7B9B /* Frameworks */,
+				E1A0AA451444CE05001E7B9B /* Resources */,
+				E1A0AA461444CE05001E7B9B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A0AA4F1444CE05001E7B9B /* PBXTargetDependency */,
+			);
+			name = PlanningPokerTests;
+			productName = PlanningPokerTests;
+			productReference = E1A0AA481444CE05001E7B9B /* PlanningPokerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A0AA211444CE05001E7B9B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E1A0AA241444CE05001E7B9B /* Build configuration list for PBXProject "PlanningPoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1A0AA1F1444CE05001E7B9B;
+			productRefGroup = E1A0AA2B1444CE05001E7B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A0AA291444CE05001E7B9B /* PlanningPoker */,
+				E1A0AA471444CE05001E7B9B /* PlanningPokerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A0AA281444CE05001E7B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0AA391444CE05001E7B9B /* InfoPlist.strings in Resources */,
+				E1A0AA421444CE05001E7B9B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A0AA451444CE05001E7B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0AA551444CE05001E7B9B /* InfoPlist.strings in Resources */,
+				E1A0AA571444CE06001E7B9B /* PlanningPokerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1A0AA461444CE05001E7B9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A0AA261444CE05001E7B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0AA3B1444CE05001E7B9B /* main.m in Sources */,
+				E1A0AA3F1444CE05001E7B9B /* PlanningPokerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A0AA431444CE05001E7B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A0AA591444CE06001E7B9B /* PlanningPokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1A0AA4F1444CE05001E7B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A0AA291444CE05001E7B9B /* PlanningPoker */;
+			targetProxy = E1A0AA4E1444CE05001E7B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1A0AA371444CE05001E7B9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A0AA381444CE05001E7B9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1A0AA401444CE05001E7B9B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A0AA411444CE05001E7B9B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E1A0AA531444CE05001E7B9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A0AA541444CE05001E7B9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A0AA5A1444CE06001E7B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1A0AA5B1444CE06001E7B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A0AA5D1444CE06001E7B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanningPoker/PlanningPoker-Prefix.pch";
+				INFOPLIST_FILE = "PlanningPoker/PlanningPoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1A0AA5E1444CE06001E7B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanningPoker/PlanningPoker-Prefix.pch";
+				INFOPLIST_FILE = "PlanningPoker/PlanningPoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1A0AA601444CE06001E7B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlanningPoker.app/PlanningPoker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanningPoker/PlanningPoker-Prefix.pch";
+				INFOPLIST_FILE = "PlanningPokerTests/PlanningPokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E1A0AA611444CE06001E7B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlanningPoker.app/PlanningPoker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanningPoker/PlanningPoker-Prefix.pch";
+				INFOPLIST_FILE = "PlanningPokerTests/PlanningPokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A0AA241444CE05001E7B9B /* Build configuration list for PBXProject "PlanningPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0AA5A1444CE06001E7B9B /* Debug */,
+				E1A0AA5B1444CE06001E7B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A0AA5C1444CE06001E7B9B /* Build configuration list for PBXNativeTarget "PlanningPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0AA5D1444CE06001E7B9B /* Debug */,
+				E1A0AA5E1444CE06001E7B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1A0AA5F1444CE06001E7B9B /* Build configuration list for PBXNativeTarget "PlanningPokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0AA601444CE06001E7B9B /* Debug */,
+				E1A0AA611444CE06001E7B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A0AA211444CE05001E7B9B /* Project object */;
+}
