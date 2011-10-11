@@ -17,5 +17,5 @@ Clone this project (in Terminal.app)
 
 Open the app in XCode
 
-	cd PlanningPoker
+	cd planning_poker
 	open PlanningPoker.xcodeproj
